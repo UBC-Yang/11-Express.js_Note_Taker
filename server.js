@@ -6,12 +6,14 @@ const htmlRoutes = require('./routes/htmlRoutes');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Set up body parsing, static, and route middleware
+// Parse URL and json
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Public folder
 app.use(express.static('public'));
 
+// apiRoutes
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
