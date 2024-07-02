@@ -5,7 +5,10 @@ The application’s front end has already been created. It's your job to build t
 
 ## Screenshot 
 
+<img width="1792" alt="Screenshot 2024-07-02 at 2 02 43 PM" src="https://github.com/UBC-Yang/Note_Taker/assets/164443710/edaaab2a-391b-4e38-ac64-1f7ead6dfc6b">
+
+
 ## Links
-GitHub:
+GitHub:https://github.com/UBC-Yang/Note_Taker
 
 Deployed application:https://note-taker-r3dv.onrender.com
